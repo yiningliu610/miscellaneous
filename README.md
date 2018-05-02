@@ -64,4 +64,8 @@
     git checkout master
 
     git merge branchName
-	
+
+# Deleting Folders From A Repo Or Branch
+1. git rm -r one-of-the-directories
+2. git commit -m "Remove duplicated directory"
+3. git push origin <your-git-branch> (typically 'master', but not always)
