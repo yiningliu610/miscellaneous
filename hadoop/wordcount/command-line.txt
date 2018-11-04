@@ -1,0 +1,1 @@
+cat input.txt | python wc_mapper.py | sort | python wc_reducer.py | sort -k2 -r | head -1 | cut -f1
